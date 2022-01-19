@@ -6,3 +6,5 @@ eureka:
   client:
     service-url:
       defaultZone: "http://rassus-labos3-eureka-server-1:8761/eureka/"
+  instance:
+    leaseRenewalIntervalInSeconds: 5
